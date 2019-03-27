@@ -1,0 +1,230 @@
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mt-35 {
+  margin-top: 35px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-45 {
+  margin-top: 45px;
+}
+.mt-25 {
+  margin-top: 25px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.pt-24 {
+  padding-top: 24px;
+}
+.pt-32 {
+  padding-top: 32px;
+}
+.pt-35 {
+  padding-top: 35px;
+}
+.c .swiper-slide {
+  overflow: hidden;
+  position: relative;
+  z-index: 99;
+}
+.c.active {
+  display: none;
+}
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-left: auto ;
+  margin-right: auto;
+}
+.c-first-page {
+  width: 100%;
+  height: 100%;
+  background: url('images/img_banner.png') no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.c-first-page .c-first-wrap {
+  position: absolute;
+  top: 295px;
+}
+.c-first-page .c-first-title {
+  color: #353535;
+  font-size: 48px;
+  line-height: 67px;
+  font-family: '苹方-简 细体';
+  font-weight: normal;
+}
+.c-first-page .c-first-content {
+  color: #353535;
+  font-size: 20px;
+  line-height: 28px;
+}
+.w-1200 {
+  width: 1200px;
+  margin: 0 auto;
+}
+.c-second-wrap {
+  overflow: hidden;
+}
+.c-second-wrap .c-second-title {
+  margin: 0 auto;
+  margin-top: 160px;
+}
+.c-second-wrap .c-second-title h2 {
+  line-height: 50px;
+  font-size: 36px;
+  color: #353535;
+  text-align: center;
+}
+.c-second-wrap .c-second-title p {
+  color: #888888;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+.c-second-wrap .c-second-nav {
+  margin-top: 97px;
+  overflow: hidden;
+}
+.c-second-wrap .c-second-nav .c-second-list {
+  width: 33.333333333%;
+  float: left;
+}
+.c-second-wrap .c-second-nav .c-second-list .c-second-p {
+  color: #353535;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+.c-second-wrap .c-second-nav .c-second-list .c-second-icon {
+  width: 72px;
+  height: 70px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 45px;
+}
+.c-second-wrap .c-second-nav .c-second-list .c-second-icon img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.c-second-wrap .c-work-icon {
+  width: 32px;
+  height: 26px;
+  background: url('images/document.png') no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.c-second-wrap .c-work-explain {
+  vertical-align: middle;
+  color: #353535;
+  font-size: 20px;
+  line-height: 28px;
+}
+.c-second-wrap .c-work {
+  text-align: center;
+  margin-top: 145px;
+}
+.c-second-wrap .block {
+  width: 30px;
+  margin: 0 auto;
+}
+.c-second-wrap .block .block1 {
+  width: 20px;
+  height: 4px;
+  display: inline-block;
+  background: #2A75ED;
+}
+.c-second-wrap .block .block2 {
+  width: 10px;
+  height: 4px;
+  display: inline-block;
+  background: #2A75ED;
+  opacity: 0.2;
+}
+.c-tir-p {
+  font-size: 16px;
+  color: #888888;
+  line-height: 22px;
+  text-align: left;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.c-four-content-wrap {
+  overflow: hidden;
+}
+.c-four-icon-content {
+  position: relative;
+  width: 290px;
+  height: 390px;
+  float: left;
+  margin-left: 11px;
+  text-align: center;
+  margin-top: 90px;
+  border: 2px solid #F5F7FA;
+  box-sizing: border-box;
+}
+.c-four-icon-content p {
+  font-size: 28px;
+  line-height: 40px;
+  color: #353535;
+}
+.c-four-img {
+  width: 66px;
+  height: 130px;
+  text-align: center;
+  line-height: 68px;
+  margin: 0 auto;
+}
+.c-four-img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.c-four-icon-content:hover .c-four-content {
+  display: block;
+}
+.c-four-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 295px;
+  height: 390px;
+  background: #2A75ED;
+}
+.c-four-content .c-four-desc {
+  width: 295px;
+  box-sizing: border-box;
+  padding: 30px 20px;
+  background: #2A75ED;
+}
+.c-four-content .c-four-desc .c-four-desc-title {
+  font-size: 28px;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+}
+.c-four-content .c-four-desc .c-four-size {
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  text-align: left;
+}
+.c-business-footer a {
+  cursor: pointer;
+}

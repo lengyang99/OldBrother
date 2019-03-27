@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./swiper-3.4.2.min.css">
+  <link rel="stylesheet" href="../public/reset.css">
+  <link rel="stylesheet" href="../homePage/index.css">
+  <link type="image/x-icon" rel="icon" href="../public/images/logo.ico">
+  <link rel="stylesheet" href="../public/animate.min.css">
+  <link rel="stylesheet" href="../public/footer.css">
+  <link rel="stylesheet" href="../public/head.css">
+
+  <title>首页</title>
+</head>
+<style>
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  .swiper-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-container .swiper-wrapper {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 400%;
+    left: 0;
+    transition: all 1s;
+  }
+
+  .swiper-container .swiper-wrapper .swiper-slide {
+    height: 25%;
+  }
+
+
+</style>
+
+<body>
+<header class="page-head">
+  <div class="head-top">
+    <div class='head-logo' onclick="swiperTo(0)"><img src="../public/images/logo_white@2x.png" alt=""></div>
+    <div class="head-nav">
+      <ul class="nav-ul">
+        <li class='active' onclick="swiperTo(0)"><a class="link">首页</a></li>
+        <li><a href="../businessPage/index.html">核心业务</a></li>
+        <li><a href="../AboutUs/index.html">关于我们</a></li>
+        <li><a href="../joinItem/index.html">加入基石</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <div class="first-slide-x slide-content">
+        <div class="content-container">
+          <p class="slogan ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
+             swiper-animate-delay="0.3s" style="">科技赋能金融</p>
+          <p class="slogan ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
+             swiper-animate-delay="0.3s" style="">为世界带来美好改变</p>
+          <p class="sm-slogan ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
+             swiper-animate-delay="0.3s" style="margin-top: 37px">金融逻辑为基础 · 技术与数据驱动</p>
+          <p class="sm-slogan ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
+             swiper-animate-delay="0.3s" style="">提供科技金融服务整体解决方案，构建高效金</p>
+          <a class="explore-more ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s"
+             swiper-animate-delay="0.3s" style="" href="../businessPage/index.html?index=3">探索更多
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="second-slide-x slide-content">
+        <div class="content">
+          <div class="lattice ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
+               swiper-animate-delay="0.3s" style="">
+            <div class="sm-lattice "></div>
+          </div>
+          <div class="title ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
+               swiper-animate-delay="0.3s" style="">核心业务领域
+          </div>
+          <div class="title-en ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
+               swiper-animate-delay="0.3s" style="">CORE BUSINESS AREAS
+          </div>
+          <ul class="professional-work ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
+              swiper-animate-delay="0.3s">
+            <li class="work">
+              <div class="bule-box">
+                <p class="headline">信贷智选业务</p>
+                <p class="work-introduce">
+                  依托自主研发的、基于人工智能、机器学习、大数据等前沿技术的智能风控系统，为年轻新消费群体提供24小时智能网络信贷支持服务</p>
+              </div>
+              <div class="work-item">
+                <p class="number">01</p>
+                <div class="grey-lump"></div>
+                <p class="work-name">信贷智选业务</p>
+              </div>
+              <a class="more-button" href="../businessPage/index.html?index=2">探索更多 ⇀</a>
+            </li>
+            <li class="work">
+              <div class="bule-box">
+                <p class="headline">智能信贷业务</p>
+                <p class="work-introduce">
+                  通过大数据技术对借款用户的高有效性信用评估和管理，以及对合作机构上数万款信用产品的风险偏好程度精准识别，为千万级个人用户与海量信贷产品提供智能撮合服务
+                </p>
+              </div>
+              <div class="work-item">
+                <p class="number">02</p>
+                <div class="grey-lump"></div>
+                <p class="work-name">智能信贷业务</p>
+              </div>
+              <a class="more-button" href="../businessPage/index.html?index=1">探索更多 ⇀</a>
+            </li>
+            <li class="work" style="margin-right: 0">
+              <div class="bule-box">
+                <p class="headline">科技赋能业务</p>
+                <p class="work-introduce">
+                  将纷繁复杂的场景、流量、数据、风控、产品等零售金融关键要素予以整合，输出整体解决方案，并无缝嵌入金融机构的业务中，帮助海内外机构客户实现互联网时代的智能化转型</p>
+              </div>
+              <div class="work-item">
+                <p class="number">03</p>
+                <div class="grey-lump"></div>
+                <p class="work-name">科技赋能业务</p>
+              </div>
+              <a class="more-button" href="../businessPage/index.html?index=3">探索更多 ⇀</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="third-slide-x slide-content">
+        <div class="content">
+          <div class="lattice ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
+               swiper-animate-delay="0.3s" style="">
+            <div class="sm-lattice "></div>
+          </div>
+          <div class="title ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
+               swiper-animate-delay="0.3s" style="">关于基石
+          </div>
+          <div class="title-en ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
+               swiper-animate-delay="0.3s" style="">ABOUT FOOTSTONE
+          </div>
+          <p class="number"><span class="element">01</span> <span class="denominator">/03</span></p>
+          <div class="slide-block">
+            <span></span>
+          </div>
+          <div class="sm-swiper">
+            <div class="swiper-wrapper" style="font-size: 14px">
+              <div class="swiper-slide">
+                <div>基石科技创新（深圳）有限公司是一家定位于全球化的科技金融公司，公司依托智能风控技术，用数据定位用户需求，提供智能网络信贷技术服务，致力于成为一家领先的科技金融整体解决方案提供商。</div>
+                <div>
+                  公司为个人用户提供纯线上小微信贷智能金融支持服务，为金融机构及商业机构提供高效的小微信贷智能金融解决方案，涵盖消费场景分期、个人信贷多个领域，并提供大数据风控决策引擎、产品开发、流量获客、营销运营、管理监控、智能催收等多种解决方案。
+                </div>
+                <div>
+                  公司的核心成员由在大数据风控、互联网、金融、AI等领域有深入研究和实操经验，同时拥有丰富管理经验的资深专家组成，并邀请到在知名投行，大型金融机构、知名互联网企业及国际顶尖咨询公司的资深专家顾问来共同推动公司发展。
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div>以科技重塑个人金融服务，让金融触手可及，为世界带来美好改变使命。</div>
+                <div>
+                  以金融逻辑为基础，以技术与数据为驱动，以创造价值与极致体验为追求，提供科技金融服务整体解决方案，构建高效金融服务生态。
+                </div>
+
+              </div>
+              <div class="swiper-slide">
+                <div><span>责任感</span>爱岗敬业、尽职尽责、专业、专注、执着</div>
+                <div><span>执行力</span>自我驱动，反应快速，执行高效，精益求精</div>
+                <div><span>创新</span>拥抱变化，勤于学习，勇于创新</div>
+                <div><span>合作</span>共享共担，有效协同，成就非凡事业</div>
+                <div><span>敬畏风险</span>稳健经营，科学发展</div>
+                <div><span>科技图强</span>技术与数据驱动发展</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="fourth-slide-x slide-content">
+        <div class="content">
+          <div class="lattice ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
+               swiper-animate-delay="0.3s" style="">
+            <div class="sm-lattice "></div>
+          </div>
+          <div class="title ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
+               swiper-animate-delay="0.3s" style="">合作伙伴
+          </div>
+          <div class="title-en ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
+               swiper-animate-delay="0.3s" style="">PARTNERS
+          </div>
+          <ul class="partners">
+            <li class="partner-img ani" style="background-color: #F8F8F8;" swiper-animate-effect="fadeInRight"
+                swiper-animate-duration="0.5s"
+                swiper-animate-delay="0.3s">
+              <p class="partner-name">
+                Face++旷世科技
+              </p>
+            </li>
+            <li class="partner-img ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
+                swiper-animate-delay="0.3s" style="">
+              <p class="partner-name">
+                Face++旷世科技
+              </p>
+            </li>
+            <li class="partner-img ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
+                swiper-animate-delay="0.3s" style="background-color: #F8F8F8;">
+              <p class="partner-name">
+                Face++旷世科技
+              </p>
+            </li>
+            <li class="partner-img ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
+                swiper-animate-delay="0.3s">
+              <p class="partner-name">
+                Face++旷世科技
+              </p>
+            </li>
+            <li class="partner-img ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
+                swiper-animate-delay="0.3s">
+              <p class="partner-name">
+                Face++旷世科技
+              </p>
+            </li>
+            <li class="partner-img ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
+                swiper-animate-delay="0.3s" style="background-color: #F8F8F8;">
+              <p class="partner-name">
+                Face++旷世科技
+              </p>
+            </li>
+            <li class="partner-img ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
+                swiper-animate-delay="0.3s">
+              <p class="partner-name">
+                Face++旷世科技
+              </p>
+            </li>
+            <li class="partner-img ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
+                swiper-animate-delay="0.3s" style="background-color: #F8F8F8;">
+              <p class="partner-name">
+                Face++旷世科技
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-content">
+      <div class="footer-slide-content-l">
+        <div class="footer-slide-l">
+          <div class="footer-tir-nav">
+            <div class="footer-left-list">
+              <ul class="footer-tir-list">
+                <li class="footer-tir-title">联系我们</li>
+                <li><a href="">商务合作邮箱：bd@footstonet.com</a></li>
+                <li><a href="">媒体对接邮箱：pr@ footstone.com</a></li>
+                <li><a href="">客服邮箱：kefu@ footstone.com</a></li>
+                <li><a href="">求职邮箱：hr@ footstonete.com</a></li>
+                <li class=""><a href="">深圳：深圳南山区九洲电器大厦4楼 </a></li>
+                <li class=""><a href="">总机：0755-86700642</a></li>
+              </ul>
+            </div>
+            <div class="footer-right-list">
+              <div class="footer-tir-list">
+                <ul class="footer-tir-text">
+                  <li class="footer-tir-title">加入我们</li>
+                  <li><a href="../AboutUs/index.html?index=2">我们的优势</a></li>
+                  <li><a href="../joinItem/index.html?index=2">招聘岗位</a></li>
+                </ul>
+              </div>
+              <div class="footer-tir-list">
+                <ul class="footer-tir-text">
+                  <li class="footer-tir-title">核心业务</li>
+                  <li><a href="../businessPage/index.html?index=2">信贷智选</a></li>
+                  <li><a href="../businessPage/index.html?index=1">智能信贷</a></li>
+                  <li><a href="../businessPage/index.html?index=3">科技赋能</a></li>
+                </ul>
+              </div>
+              <div class="footer-tir-list">
+                <ul class="footer-tir-text">
+                  <li class="footer-tir-title">关于基石</li>
+                  <li onclick="swiperTo(2,1)"><a>公司介绍</a></li>
+                  <li onclick="swiperTo(2,2)"><a>愿景及使命</a></li>
+                  <li onclick="swiperTo(2,3)"><a>核心价值观</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom-cy">
+          <p>Copyright @2019基石科技创新(深圳)有限公司 All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+<script src="../public/jquery-1.10.1.min.js"></script>
+<script src="./swiper-3.4.2.jquery.min.js"></script>
+<script src="../public/swiper.animate1.0.3.min.js"></script>
+<script>
+    function IEVersion() {
+        var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
+        var isIE = userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1; //判断是否IE<11浏览器
+        var isEdge = userAgent.indexOf("Edge") > -1 && !isIE; //判断是否IE的Edge浏览器
+        var isIE11 = userAgent.indexOf('Trident') > -1 && userAgent.indexOf("rv:11.0") > -1;
+        if (isIE) {
+            var reIE = new RegExp("MSIE (\\d+\\.\\d+);");
+            reIE.test(userAgent);
+            var fIEVersion = parseFloat(RegExp["$1"]);
+            return fIEVersion <= 9
+        } else {
+            return false
+        }
+    }
+
+    function swiperTo(i, smI) {
+        if (IEVersion()) {
+            $('.swiper-container>.swiper-wrapper').css('top', -(i * 100) + '%')
+            if(smI){
+                var si = smI - 1
+                var text = si === 1 ? '愿景' : si === 2 ? '核心价值观' : '关于基石'
+                $('.third-slide-x .number .element').text('0' + (si + 1))
+                $('.third-slide-x .title').text(text)
+                $('.third-slide-x .content .slide-block>span').css('left', si * 80 + 'px')
+                $('.third-slide-x .content .sm-swiper .swiper-wrapper').css('left', -(si * 610) + 'px')
+
+            }
+        } else {
+            swiperFather.slideTo(i, 1000, true)
+            if (smI) {
+                swiperSon.slideTo(smI - 1, 1000, true)
+            }
+        }
+    }
+
+    $(document).ready(function () {
+        if (IEVersion()) {
+            if(getQueryString('index')){
+                $('.swiper-container>.swiper-wrapper').css('top', -(2 * 100) + '%')
+                var i = getQueryString('index');
+                var text = i === 1 ? '愿景' : i === 2 ? '核心价值观' : '关于基石'
+                $('.third-slide-x .number .element').text('0' + (i + 1))
+                $('.third-slide-x .title').text(text)
+                $('.third-slide-x .content .slide-block>span').css('left', i * 80 + 'px')
+                $('.third-slide-x .content .sm-swiper .swiper-wrapper').css('left', -(i * 610) + 'px')
+
+            }
+        } else {
+
+            if (getQueryString('index')) {
+                swiperFather.slideTo(2, 1000, true)
+                swiperSon.slideTo(getQueryString('index'), 1000, true)
+            }
+        }
+    })
+
+    function getQueryString(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return unescape(r[2]);
+        return null;
+    }
+
+    var sI;
+    var swiperIndex = sI ? sI : 0,
+        initSwiper = {
+            direction: 'vertical',
+            initialSlide: swiperIndex,
+            mousewheelControl: true,
+            slidesOffsetAfter: 354,
+            speed: 1000,
+            // 切换页面成功之前的回调
+            onSlideChangeStart: function (swiper) {
+                sI = swiper.activeIndex;
+                var index = swiper.activeIndex
+                if (index === 0) {
+                    $('.head-logo img').attr('src', '../public/images/logo_white@2x.png')
+                    $('.nav-ul a').removeClass('black')
+                    $('.page-head').addClass('del-shadow').css('background-color', 'rgba(255,255,255,0)')
+                } else {
+                    $('.nav-ul a').addClass('black')
+                    $('.head-logo img').attr('src', '../public/images/logo_black@2x.png')
+                    $('.page-head').removeClass('del-shadow').css('background-color', 'rgba(255,255,255,1)')
+                }
+            },
+            onInit: function (swiper) { //Swiper2.x的初始化是onFirstInit
+                swiperAnimateCache(swiper); //隐藏动画元素
+                swiperAnimate(swiper); //初始化完成开始动画
+            },
+            onSlideChangeEnd: function (swiper) {
+                swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+                // console.log(swiper.activeIndex);
+                if (swiper.activeIndex === 2) {
+                    swiper.disableMousewheelControl()
+                }
+            }
+        };
+    var swiperFather = new Swiper('.swiper-container', initSwiper);
+    var swiperSon = new Swiper('.sm-swiper', {
+        mousewheelControl: true,
+        mousewheelReleaseOnEdges: true,
+        mousewheelEventsTarged: '.third-slide-x',
+        mousewheelSensitivity: .3,
+        speed: 1000,
+        onInit: function (swiper) { //Swiper2.x的初始化是onFirstInit
+            swiperAnimateCache(swiper); //隐藏动画元素
+            swiperAnimate(swiper); //初始化完成开始动画
+        },
+        onSlideChangeEnd: function (swiper) {
+            swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+            var index = swiper.activeIndex
+            window.document.onmousewheel = function (event) {
+                if (event.wheelDelta < 0 && index === 2) {
+                    swiperFather.enableMousewheelControl()
+                } else if (event.wheelDelta > 0 && index === 0) {
+                    swiperFather.enableMousewheelControl()
+                }
+            }
+
+
+        },
+        onSlideChangeStart: function (swiper) {
+            var text = swiperSon.activeIndex === 1 ? '愿景' : swiperSon.activeIndex === 2 ? '核心价值观' : '关于基石'
+            $('.third-slide-x .number .element').text('0' + (swiperSon.activeIndex + 1))
+            $('.third-slide-x .title').text(text)
+            $('.third-slide-x .content .slide-block>span').css('left', swiperSon.activeIndex * 80 + 'px')
+        }
+
+
+    });
+
+
+    $(document).ready(function () {
+
+        if (IEVersion()) {
+            $('.third-slide-x .content .number').click(function () {
+                i++;
+                var left;
+                if (i === 3) {
+                    left = 0;
+                    i = 0;
+                } else {
+                    left = i * 610;
+                }
+                var text = i === 1 ? '愿景' : i === 2 ? '核心价值观' : '关于基石'
+                $('.third-slide-x .number .element').text('0' + (i + 1))
+                $('.third-slide-x .title').text(text)
+                $('.third-slide-x .content .slide-block>span').css('left', i * 80 + 'px')
+                $('.third-slide-x .content .sm-swiper .swiper-wrapper').css('left', -left + 'px')
+            })
+            $('.third-slide-x .content .slide-block').click(function () {
+                i++;
+                var left;
+                if (i === 3) {
+                    left = 0;
+                    i = 0;
+                } else {
+                    left = i * 610;
+                }
+                var text = i === 1 ? '愿景' : i === 2 ? '核心价值观' : '关于基石'
+                $('.third-slide-x .number .element').text('0' + (i + 1))
+                $('.third-slide-x .title').text(text)
+                $('.third-slide-x .content .slide-block>span').css('left', i * 80 + 'px')
+
+                $('.third-slide-x .content .sm-swiper .swiper-wrapper').css('left', -left + 'px')
+            })
+
+            $('.swiper-container>.swiper-wrapper').css('display', 'block')
+            var index = 0,
+                i = 0,
+                timer,
+                Delta,
+                flag = true,
+                childLength = 4;
+            var BOX_CHANGE_TIME = 1000; //页面动画的过渡时间
+            if (window.addEventListener) //FF,火狐浏览器会识别该方法
+                window.addEventListener('DOMMouseScroll', slideEvent, false);
+
+            window.document.onmousewheel = function (event) {
+                if (flag) { //  防止多次滚轮滚动多个页面，保证在上个页面动画结束后，发生下一个页面
+                    flag = false;
+                    slideEvent(event);
+                    setTimeout(function () {
+                        flag = true;
+                    }, BOX_CHANGE_TIME)
+                }
+            }
+
+
+            function slideEvent(event) {
+                Delta = window.event.wheelDelta
+                clearTimeout(timer); //不会一次滚动触发多次事件
+                timer = setTimeout(function () {
+                    if (Delta > 0) { //向上
+                        index = (index === 0 ? 0 : --index);
+                    } else { //向下
+
+                        index = (index === 4 ? childLength - 1 : ++index);
+                    }
+                    if (index >= 4) {
+                        var sss = (354 / $('.swiper-container>.swiper-wrapper>.swiper-slide').innerHeight()).toFixed(2);
+                        $('.swiper-container>.swiper-wrapper').css('top', -(sss * 100 + 300) + '%');
+                        index = 3
+                    } else {
+
+
+                        $('.swiper-container>.swiper-wrapper').css('top', -(index * 100) + '%')
+                        if (index === 0) {
+                            $('.head-logo img').attr('src', '../public/images/logo_white@2x.png')
+                            $('.nav-ul a').removeClass('black')
+                        } else {
+                            $('.nav-ul a').addClass('black')
+                            $('.head-logo img').attr('src', '../public/images/logo_black@2x.png')
+                        }
+                    }
+
+                }, 300);
+
+            }
+        }
+    })
+
+</script>
+
+</html>

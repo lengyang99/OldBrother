@@ -1,0 +1,90 @@
+.footer-slide-content-l {
+  box-sizing: border-box;
+  width: 100%;
+}
+.footer-slide-l {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-slide-l .footer-tir-nav {
+  width: 100%;
+  overflow: hidden;
+}
+.footer-slide-l .footer-tir-nav .footer-left-list {
+  float: left;
+  height: 246px;
+  margin-top: 54px;
+}
+.footer-slide-l .footer-tir-nav .footer-left-list .footer-tir-list {
+  box-sizing: border-box;
+  float: left;
+  text-align: left;
+  overflow: hidden;
+}
+.footer-slide-l .footer-tir-nav .footer-left-list .footer-tir-list .footer-tir-title {
+  margin-bottom: 19px;
+  height: 25px;
+  font-size: 18px;
+  font-family:SourceHan;
+  font-weight: 300;
+  color: #081e42;
+  line-height: 25px;
+}
+.footer-slide-l .footer-tir-nav .footer-left-list .footer-tir-list :nth-last-child(2) {
+  margin-top: 20px;
+}
+.footer-slide-l .footer-tir-nav .footer-left-list .footer-tir-list li {
+  margin-bottom: 6px;
+  height: 20px;
+  font-size: 14px;
+  font-family:SourceHan;
+  font-weight: 300;
+  color: #415070;
+  line-height: 20px;
+}
+.footer-slide-l .footer-tir-nav .footer-right-list {
+  float: right;
+  height: 246px;
+  margin-top: 54px;
+}
+.footer-slide-l .footer-tir-nav .footer-right-list .footer-tir-list {
+  box-sizing: border-box;
+  float: right;
+  text-align: left;
+  overflow: hidden;
+  margin-left: 110px;
+}
+.footer-slide-l .footer-tir-nav .footer-right-list .footer-tir-list .footer-tir-text .footer-tir-title {
+  margin-bottom: 16px;
+  height: 25px;
+  font-size: 18px;
+  font-family:SourceHan;
+  font-weight: 400;
+  color: #081e42;
+}
+.footer-slide-l .footer-tir-nav .footer-right-list .footer-tir-list .footer-tir-text li {
+  margin-bottom: 8px;
+  height: 20px;
+  font-size: 14px;
+  font-family:SourceHan;
+  font-weight: 300;
+  color: #415070;
+}
+.footer-bottom-cy {
+  height: 53px;
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid #e2e4ee;
+}
+.footer-bottom-cy p {
+  height: 17px;
+  font-size: 12px;
+  font-family:SourceHan;
+  font-weight: 300;
+  color: #415070;
+  line-height: 53px;
+}
+.footer-tir-nav ul li a {
+  color: #415070;
+}

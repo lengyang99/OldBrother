@@ -1,0 +1,73 @@
+.page-head {
+    position: fixed;
+    width: 100%;
+    min-width: 800px;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index:999;
+    padding-top: 0;
+    /* background-color: black; */
+    -ms-box-shadow: -2px 1px 10px rgba(0,0,0,.1);
+    -o-box-shadow: -2px 1px 10px rgba(0,0,0,.1);
+    box-shadow: -2px 1px 10px rgba(0,0,0,.1);
+    transition: padding-top .5s
+}
+.page-head.del-shadow{
+    box-shadow: none;
+}
+.head-top {
+    width: 1200px;
+    height: 94px;
+    margin: 0 auto;
+}
+.head-logo {
+    cursor: pointer;
+    margin-top: 33px;
+    float: left;
+    width: 276px;
+    height: 28px;
+    /* background: url("../AboutUs/imgs/logo_white.png"); */
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.head-logo img{
+    max-width: 100%;
+    max-height: 100%;
+}
+/* .head-logo.black{
+    background: url("../businessPage/images/logo_black@2x.png");
+} */
+.head-nav {
+    float: right;
+    margin-top: 35px;
+}
+
+.nav-ul {
+    float: left;
+}
+
+.head-nav ul li {
+    float: left;
+    margin-left: 28px;
+    height:25px;
+    font-size:18px;
+    font-family:SourceHan2!important;
+    font-weight:medium;
+    color:rgba(255,255,255,1);
+    line-height:25px;
+}
+.head-nav ul li a {
+    color:#fff;
+}
+.head-nav ul li a.black{
+    color: #000;
+}
+.head-nav ul li a.link {
+    box-shadow: 0 0;
+    color:#2A75ED;
+    display: block;
+    font-size: 18px;
+    padding-bottom: 31px;
+    border-bottom: 3px solid #2A75ED;
+}

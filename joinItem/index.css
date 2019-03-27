@@ -1,0 +1,255 @@
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-left: auto ;
+  margin-right: auto;
+}
+.page-head.active {
+  display: none;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper-slide {
+  overflow: hidden;
+}
+.w-1200 {
+  width: 1200px;
+  margin: 0 auto;
+}
+.c-first-page {
+  width: 100%;
+  height: 100%;
+  background: url('images/bg.png') no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  overflow: hidden;
+}
+.mt-35 {
+  margin-top: 35px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mt-45 {
+  margin-top: 45px;
+}
+.c-first-wrap {
+  margin-top: 200px;
+}
+.c-first-wrap .c-first-title {
+  color: #fff;
+  font-size: 48px;
+  line-height: 67px;
+  font-family: "思源黑体,roboto";
+  font-weight: normal;
+}
+.c-first-wrap .c-first-desc {
+  font-family: "思源黑体,roboto";
+  color: #fff;
+  font-size: 20px;
+  line-height: 28px;
+}
+.c-first-wrap .c-first-more {
+  width: 135px;
+  height: 45px;
+  background: #fff;
+  text-align: center;
+}
+.c-first-wrap .c-first-more a {
+  display: block;
+  color: #2A75ED;
+  font-size: 14px;
+  line-height: 45px;
+}
+.c-second-title {
+  font-size: 36px;
+  color: #353535;
+  line-height: 50px;
+}
+.c-join-me {
+  position: relative;
+}
+.c-jion-img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 45.25%;
+  background: url('images/join.png') no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  height: 100%;
+}
+.c-second {
+  position: relative;
+  height: 100%;
+}
+.c-second .c-second-left {
+  position: relative;
+  height: 100%;
+}
+.c-second .block {
+  width: 30px;
+  margin-top: 55px;
+}
+.c-second .block .block1 {
+  width: 20px;
+  height: 4px;
+  display: inline-block;
+  background: #2A75ED;
+}
+.c-second .block .block2 {
+  width: 10px;
+  height: 4px;
+  display: inline-block;
+  background: #2A75ED;
+  opacity: 0.2;
+}
+.c-second .c-second-content {
+  position: absolute;
+  height: 382px;
+  left: 0;
+  top: 50%;
+  margin-top: -191px;
+}
+.c-second .c-second-h3 {
+  font-size: 14px;
+  line-height: 20px;
+  color: #353535;
+  margin: 30px 0;
+}
+.c-second .c-second-p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #353535;
+}
+.c-second .c-second-join {
+  width: 622px;
+}
+.c-tir {
+  overflow: hidden;
+}
+.c-tir .c-jion-we {
+  margin-top: 115px;
+  color: #353535;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+}
+.c-tir .c-tir-nav-wrap {
+  margin: 0 auto;
+  width: 720px;
+  margin-top: 30px;
+}
+.c-tir .c-tir-nav {
+  list-style: none;
+  margin-left: -10px;
+  overflow: hidden;
+}
+.c-tir .c-tir-list {
+  margin-left: 40px;
+  float: left;
+  margin-bottom: 20px;
+  border: 1px solid #9196A0;
+  border-radius: 18px;
+  height: 36px;
+  line-height: 36px;
+  color: #9196A0;
+  font-size: 14px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0 20px;
+  cursor: pointer;
+}
+.c-tir .c-tir-list.active {
+  color: #2A75ED;
+  border-color: #2A75ED;
+}
+.c-tir .c-tir-wrap {
+  width: 1100px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 115px;
+  border-bottom: 1px solid #E2E4EE;
+}
+.c-tir .w-120 {
+  width: 120px;
+}
+.c-department {
+  display: none;
+}
+.c-department.active {
+  display: block;
+}
+.c-invite-header {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  box-sizing: border-box;
+  border: 1px solid #E2E4EE;
+  padding: 0 30px;
+  line-height: 70px;
+  color: #081E42;
+  font-size: 18px;
+  border-bottom: none;
+}
+.c-invite-content {
+  border: 1px solid #E2E4EE;
+  display: none;
+}
+.c-invite-content.active {
+  display: block;
+  border-bottom: none;
+}
+.c-r-arrow {
+  position: absolute;
+  right: 30px;
+  top: 29px;
+  background: url('images/r-arrow.png') no-repeat;
+  width: 11px;
+  height: 11px;
+  display: block;
+}
+.c-r-arrow.active {
+  background: url('images/up-arrow.png') no-repeat;
+}
+.c-invite-responsibility-wrap {
+  margin-left: 30px;
+  padding-bottom: 30px;
+}
+.c-invite-responsibility {
+  padding: 30px 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: #081E42;
+}
+.c-invite-demain {
+  color: #9196A0;
+  font-size: 14px;
+  line-height: 24px;
+}
+.c-join-wrapper {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: -17px;
+  bottom: 0;
+}
+.c-join-wrapper::-webkit-scrollbar {
+  width: 0 !important;
+}
+.c-business-footer a {
+  cursor: pointer;
+}
